@@ -71,7 +71,7 @@ while True:
                     hour, minute = map(int, time.split(":")) #splits the string after the colon, also map int converts each peace to int
                     total_min = hour * 60 + minute      #then puts it into two var, and this line multiplies the hour to 60
 
-                    if total_min > 420:   #
+                    if total_min > 420:   #420 mins is 7 hours i think, according to google
                         studs[name] = "Late"
                         print("Student is late")
                     else:
