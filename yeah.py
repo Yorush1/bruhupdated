@@ -1,57 +1,32 @@
-studs = {} #ts stands for students not actual studs
+studs = {}
 
-while True:
-    print("                                                             ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣀⣀⣀⣀")
-    print("                                                             ⠀⠀⠀⠀⠀⠀⢀⣤⠒⠒⠒⠚⣭⡟⠻⠍⠉⠉⠄⠀⠀⠀⠀⠌⢳")
-    print("                                                               ⠀⠀⠀⠀⢸⠘⡌⡀⠀⠴⠁⢻⠀⠀⠀⠀⢰⠀⠀⠀⠀⠀⢸⡀")
-    print("                                                               ⠀⠀⠀⠀⡟⠠⠀⡇⢰⢛⡶⡝⠀⠀⢠⠀⠸⠀⠀⠀⢀⠀⠈⡇")
-    print("                                                               ⠀⠀⠀⠀⡇⠀⣀⡆⠏⣻⣃⠁⠀⠀⠀⠀⠀⠆⠀⠐⠀⠐⠀⡇")
-    print("╔══════════════════════════════════════════════════════╗    ⠀⠀⠀⠀⠀⢰⡗⠁⣠⣤⡤⡀⠀⠑⣄⠀⠀⠀⠀⣀⣨⣤⣤⣀⠀⢸")
-    print("║              ATTENDANCE MANAGEMENT SYSTEM            ║    ⠀⠀⠀⠀⠀⢹⣴⣻⣧⣤⣼⣤⣀⢀⠀⠁⠀⣰⣾⣋⣽⣿⢿⣤⢕⡘⡆")
-    print("╠══════════════════════════════════════════════════════╣    ⠀⠀⠀⠀⠀⣾⣿⢟⡭⠓⠒⠩⣟⣿⡇⠀⢰⣿⢟⠍⠂⠀⠈⠙⣷⣸⠃")
-    print("║             !! ENTER CHOICE : 1 to 4!!               ║    ⠀⠀⠀⠀⠀⡿⡟⠁⢰⣿⣯⡦⠈⣿⣿⠀⣾⣇⠃⢀⣾⣥⣬⡄⠘⣿⡀")
-    print("║   [1] Add Student                                    ║    ⠀⠀⠀⠀⢨⡇⡷⣤⡈⠻⠿⠃⢀⣿⣿⠀⣿⣏⣇⠈⠻⠛⠗⢁⣼⠋⢷")
-    print("║   [2] Mark Attendance                                ║    ⠀⠀⠀⠀⢹⠁⠸⢾⣷⣦⣤⣴⡾⠁⢡⠀⠠⠉⠫⣳⠦⡤⣾⡿⠋⠀⢸")
-    print("║   [3] Enter Time of Arrival                          ║    ⠀⠀⠀⠀⢸⣀⠀⠀⠈⠉⠉⠀⠀⢀⠏⠀⠀⠡⡀⠀⠉⠉⠉⠁⠀⠀⢸⠄")
-    print("║   [4] View Attendance                                ║    ⠀⠀⠀⠀⠈⢻⡷⣖⣶⣤⣤⣶⡀⠘⡈⠀⠀⠄⠑⣶⣤⣀⣀⣤⣶⣾⠟")
-    print("║   [5] Exit                                           ║    ⠀⠀⠀⠀⠀⢳⣶⣴⣿⡿⠋⣤⠀⠀⡀⠀⠀⢀⠘⢯⣽⣿⣿⣾⠃")
-    print("╚══════════════════════════════════════════════════════╝    ⠀⠀⠀⠀⠀⢸⡆⣹⣿⢤⡀⣿⣿⣿⣭⣽⡿⠟⢀⣠⠬⢛⢹⡇")
-    print("                                                               ⠀⠀⠀⡏⢸⢸⠳⣝⢶⣬⣉⣉⣠⣤⡶⢛⠕⠀⡄⡎⡇")
-    print("                                                               ⠀⠀⠀⣿⢸⠘⡌⠛⢯⠒⠋⠭⣭⠵⠖⠉⠀⡰⡃⡠⡇")
+while True:    
+    print("╔══════════════════════════════════════════════════════╗⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣴⣶⡀⠀⠀")
+    print("║              ATTENDANCE MANAGEMENT SYSTEM            ║⠀⠀⢠⣤⡀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣤⣾⠏⠘⠿⣦⣤")
+    print("╠══════════════════════════════════════════════════════╣⠀⠀⣾⠉⠻⢶⠶⠛⢻⡇⠀⠀⠀⠘⢻⡦⠀⠀⢰⡾⠃")
+    print("║             !! ENTER CHOICE : 1 to 4!!               ║⢀⣤⠿⠀⠀⠀⠀⢠⡟⠁⠀⠀⠀⠀⠸⠷⠿⠿⣾⣷⠀")
+    print("║   [1] Add Student                                    ║⢿⣥⣀⠀⠀⠀⠀⠀⢻⡆⠀⠀⠀⠀⠀⠀⠀⠀")
+    print("║   [2] Mark Attendance                                ║⠀⠈⠉⣿⣀⣾⠟⠛⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀")
+    print("║   [3] Enter Time of Arrival                          ║⠀⠀⠀⠘⠛⠁⠀⠀⠀⠀⠀⢀⣾⢻⣆⡀⠀⠀⠀⠀⠀")
+    print("║   [4] View Attendance                                ║⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣤⣾⠃⠀⠙⠛⣿⠇⠀⠀⠀")
+    print("║   [5] Exit                                           ║⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠻⣶⡄⠀⠀⢸⣏⠀⠀⠀⠀")
+    print("╚══════════════════════════════════════════════════════╝⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢾⡷⠟⠛⠻⠿⠀⠀⠀⠀")
 
 
-
-    print("                                                               ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡤⠤⠤⡠⠀⠀⠀⠀⠀⠀⠀⠀⠀")
-    print("╔══════════════════════════════════════════════════════╗    ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⣄⣬⡽⠿⢛⢀⣠⠬⠙⠁⠀⠀⠀⠘⠱⣤⠀⠀⠀⠀⠀⠀⠀")
-    print("║              ATTENDANCE MANAGEMENT SYSTEM            ║    ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡀⣠⣤⣤⢴⡿⠛⠛⡤⡤⠶⠚⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⢀⣤⣽⣄⠀⠀⠀⠀⠀")
-    print("╠══════════════════════════════════════════════════════╣    ⠀⠀⠀⠀⠀⠀⢀⣄⣤⠒⠛⠛⠁⣠⣠⢀⣎⣶⣴⣀⡄⠀⠀⠀⠀⠀⠀⠀⠀⢠⣠⣐⣛⣟⣛⣿⣿⡀⠀⠀⠀⠀")
-    print("║             !! ENTER CHOICE : 1 to 4!!               ║    ⠀⠀⠀⠀⠀⢀⣾⣿⡿⠉⠀⠐⠂⠉⠉⠁⠘⢿⣿⣿⣿⣷⡄⠀⠀⠀⣀⣤⣾⣾⣿⣿⣿⣿⣿⠿⢿⣿⣷⠀⠀⠀⠀")
-    print("║   [1] Add Student                                    ║    ⠀⠀⠀⠀⠀⢸⣿⣿⠇⠀⠀⢀⡠⠖⣔⣺⠶⢤⣉⠭⣿⣿⣿⣶⣮⣽⣿⣿⣿⣿⣿⣿⣿⠿⠁⣬⣾⠿⠃⠀⠀⠀⠀")
-    print("║   [2] Mark Attendance                                ║    ⠀⠀⠀⠀⠀⢸⣭⣿⠀⠀⠀⡞⠀⣬⣽⢡⣮⣽⣿⣧⠉⣭⣽⣿⣿⣿⣿⣿⣿⣿⣽⣿⠁⢤⣼⣭⡏⠀⠀⠀⠀⠀⠀")
-    print("║   [3] Enter Time of Arrival                          ║    ⠀⠀⠀⠀⠀⠘⣿⣿⡇⠀⠀⡇⠀⣿⣃⢸⣿⣿⣿⣿⣇⢻⣿⣿⣿⣿⣿⣿⣿⣿⠋⠀⣠⣿⡿⠃⠀⠀⠀⠀⠀⠀⠀")
-    print("║   [4] View Attendance                                ║    ⠀⠀⠀⠀⠀⠀⢳⣾⣧⠀⠀⣧⡀⢞⣿⡔⣶⣶⣶⣾⣿⢸⣶⣶⣶⣶⣶⣶⠞⠁⣰⣾⣶⠖⠁⠀⠀⠀⠀⠀⠀⠀⠀")
-    print("║   [5] Exit                                           ║    ⠀⠀⠀⠀⠀⠀⠀⢾⣿⡄⠀⠸⣆⠀⢾⣷⣌⢳⢾⡾⡟⣼⣷⣶⣶⣶⣿⠃⡠⣴⣷⡿⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀")
-    print("╚══════════════════════════════════════════════════════╝    ⠀⠀⠀⠀⠀⠀⠀⠈⢭⣽⡄⠀⠉⠤⣀⡙⢩⠽⣒⡤⠡⣭⣭⣭⣭⣭⣭⡵⣬⣭⠍⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀")
-    print("                                                               ⠀⠀⠀⠀⠀⠀⠀⠀⠐⠹⢿⣦⣀⢀⣉⣉⣉⣉⡁⠀⠀⠈⠛⢿⣿⣿⣿⣿⣟⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀")
-    print("                                                               ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠛⠃⢸⣿⣿⣿⣿⣿⣦⡄⠀⠀⠀⠙⢻⣿⠛⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀")
-    print("                                                               ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣤⣤⣤⣤⣑⠷⡷⠃⠀⠀⠀⠀⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀")
-    print("                                                               ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣿⣿⣿⣿⣿⣿⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀")
-    print("                                                               ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢨⣭⣽⣿⣿⢿⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀")
 
     try:
-        choice = int(input("> Enter choice: "))  #the choice mentioned in multiple args
-
+        choice = int(input("> Enter choice: "))
         if choice == 1:
             print("╔══════════════════════════════════════════════╗")
             print("║                 ADD STUDENT                  ║")
             print("╚══════════════════════════════════════════════╝")
             name = input("  Student name: > ")
 
-            if name == "":   #stops user from entering a no name idk
+            if name == "": 
                 print("╔══════════════════════════════════════════════╗")
                 print("║             !NAME CAN'T BE EMPTY!            ║")
                 print("╚══════════════════════════════════════════════╝")
-            elif name in studs:       #stops user from entering the same name if its already in studs
+            elif name in studs:   
                 print("╔══════════════════════════════╗")
                 print("║      STUDENT IS ALREADY      ║")
                 print("║             HERE             ║")
@@ -70,22 +45,22 @@ while True:
             print("╚══════════════════════════════════════════════╝")
             name = input("  Student name: > ")
 
-            if name in studs:   #checks if student exists
+            if name in studs:
                 print("╔══════════════════════════════════════════════╗")
                 print("║             PRESENT OR ABSENT?               ║")
                 print("╚══════════════════════════════════════════════╝")
                 status = input("  Present or Absent: > ").lower()
 
-                if status == "present":     #marks student present if present is typed
+                if status == "present":
                     studs[name] = "Present"
-                elif status == "absent":   #same here vruv
-                    studs[name] = "Absnet"
+                elif status == "absent":
+                    studs[name] = "Absent"
                 else:
                     print("╔═══════════════════════════════════╗")
                     print("║           INVALID INPUT           ║")
                     print("╚═══════════════════════════════════╝")
             else:
-                print("Student not found") #shows when student aint found
+                print("Student not found")
 
         elif choice == 3:
             print("╔══════════════════════════════════════════════╗")
@@ -100,8 +75,8 @@ while True:
                 time = input("Enter Time of arrival (H:M): > ")
 
                 try:
-                    hour, minute = map(int, time.split(":")) #splits the string after the colon, also map int converts each peace to int
-                    total_min = hour * 60 + minute      #then puts it into two var, and this line multiplies the hour to 60
+                    hour, minute = map(int, time.split(":"))
+                    total_min = hour * 60 + minute
 
                     if total_min > 420:   #
                         studs[name] = "Late"
@@ -121,7 +96,7 @@ while True:
                 print("╚═══════════════════════════════╝")
         
         elif choice == 4:
-            if not studs:  #if there's nothing in the studs dict, this code runs
+            if not studs:
                 print("╔════════════════════════════════════════╗")
                 print("║          THERE'S NO STUDENTS           ║")
                 print("╚════════════════════════════════════════╝")
@@ -129,7 +104,7 @@ while True:
                 print("╔═══════════════════════════════════════╗")
                 print("║            ATTENDANCE LIST            ║")
                 print("╚═══════════════════════════════════════╝")
-                for name, status in studs.items(): #but if there is, it prints the name and status if absent/presnet
+                for name, status in studs.items():
 
                     print("      *", name, "-", status)
 
